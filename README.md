@@ -1,7 +1,8 @@
-# Multi::Armed::Bandit
+# MultiArmedBandit
 A Redis backed multi-armed bandit library.  Currently Thompson Sampling is implemented. 
 
 ## Usage
+
 ```ruby
 require 'multi-armed-bandit'
 mab = MultiArmedBandit::ThompsonSampling.new Redis.new(:port => 6379), 'colors'
