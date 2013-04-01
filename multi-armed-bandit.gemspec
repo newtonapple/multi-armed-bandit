@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = MultiArmedBandit::VERSION
   gem.authors       = ["David Dai"]
   gem.email         = ["ddai@scribd.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{A Redis backed multi-armed bandit library.}
+  gem.summary       = %q{A Redis backed multi-armed bandit library.}
+  gem.homepage      = "https://github.com/newtonapple/multi-armed-bandit"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
